@@ -1,0 +1,121 @@
+#nb{
+    position: sticky;
+    top: 0;
+}
+
+#nb a:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: blue;
+}
+
+.honeandsix{
+    background-image: url('./Images/background\ image.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.text{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#first-line{
+    width: 50%;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+#second-line{
+    width: 63%;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.mod , .teach , .super , .gallery , .git{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: blue;
+    margin-bottom: 50px;
+}
+
+.circle{
+    border: 3px solid #6195FF;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 12% 7% 12% 7%;
+    border-radius: 100%;
+}
+
+#beg , #int , #adv{
+    padding: 50px;
+}
+
+#begp , #intp , #advp{
+    padding-top: 50px;
+}
+
+#bega , #inta , #adva{
+    border: 2px solid #6195FF;
+}
+
+#beginner:hover , #inter:hover , #advance:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.circle:hover{
+    color: white;
+}
+
+
+.teacher{
+    background-image: url('./Images/second\ image.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 100px 50px 100px 50px;
+}
+
+.teachp{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.teacha{
+    background-color: transparent;
+    color: #6195FF;
+    border: 2px solid #6195FF;
+    padding: 10px 35px 10px 35px;
+}
+
+#webinst , #me{
+    text-align: center;
+}
+
+.saad , .ars{
+    width: 40%;
+}
+
+#pic{
+    position: static;
+    top: 0;
+}
+
+#carouselExampleIndicators{
+    margin-top: 100px !important;
+}
+
+#gint{
+    border: none;
+}
